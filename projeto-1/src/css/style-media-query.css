@@ -1,0 +1,148 @@
+@import url(./variaveis.css);
+
+@media (max-width: 680px) and (min-width: 100px) {
+    .list-content{
+        h2{
+            text-align: center;
+            padding: 1rem;
+            font-size: 2rem;
+        }
+        .list-head{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            div{
+                padding-bottom: 1rem;
+                margin-bottom: .4rem;
+                font-size: 1rem;
+                font-weight: 600;
+                border-bottom: 1px solid var(--texto);
+            }
+        }
+        .list-body{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 2rem;
+    
+            .list-dados{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                border: 1px solid var(--destaque-inverso);
+                border-radius: 10px;
+                &:hover{
+                    background-color: var(--destaque-inverso);
+                    border: 2px solid var(--destaque);
+                }
+                div{
+                    text-align: left;
+                    padding: 1rem;
+                    &.btn-content{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    header{
+        .navbar{
+            div{
+                h1{
+                    font-size: 3rem;
+                }
+            }
+            ul{
+                flex-direction: row;
+                align-items: center;
+                gap: .5rem;
+                li{
+                    border: none;
+                    padding: 5px;
+                    border-radius: 10px;
+                    &:hover{
+                        margin-left: 0;
+                        background-color: var(--texto-inverso);
+                        border-color: var(--texto);
+                        transform: translateY(-5px);
+                    }
+                    a{
+                        text-align: center;
+                        text-wrap: nowrap;
+                        &:hover{
+                            border-bottom: none;
+                            color: var(--texto);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        form{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            h2{
+                grid-column: 1/-1;
+            }
+            .btn-content{
+                display: block;
+            }
+        }
+    }
+    input{
+        width: 300px;
+    }
+}
+@media (min-width: 972px) {
+        header{
+        .navbar{
+            display: flex;
+            flex-direction: row; 
+            flex-wrap: nowrap;
+            justify-content: space-between;
+
+            div{
+                h1{
+                    font-size: 3rem;
+                }
+                .btn-mobile{
+                    display: none;
+                }
+            }
+            ul{
+                flex-direction: row;
+                align-items: center;
+                margin-right: 30%;
+                li{
+                    border: none;
+                    padding: 5px;
+                    border-radius: 10px;
+                    margin-left: 1rem;
+                    &:hover{
+                        margin-left: 1rem;
+                        background-color: transparent;
+                        border-color: var(--texto);
+                        transform: translateY(0);
+                    }
+                    a{
+                        text-align: center;
+                        text-wrap: nowrap;
+                        &:hover{
+                            border-bottom: 2.5px solid var(--texto-inverso);
+                            color: var(--texto);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        form{
+            width: 800px;
+        }
+    }
+}
