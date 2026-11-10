@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS projeto2;
+
+USE projeto2;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    sobrenome VARCHAR(100) NOT NULL,
+    data_nasc DATE NOT NULL,
+    PRIMARY KEY (id)
+);

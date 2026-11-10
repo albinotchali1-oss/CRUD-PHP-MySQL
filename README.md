@@ -7,7 +7,8 @@ Repositório de uma série prática de **40 projetos** para aprender e exercitar
 | Projeto | Descrição | Estado |
 | --- | --- | --- |
 | [Projeto 1 — Cadastro de usuários](./projeto-1/README.md) | Aplicação web para cadastrar, listar, editar e excluir usuários. | Disponível |
-| Projetos 2 a 40 | Novos exercícios da série. | A desenvolver |
+| [Projeto 2 — CRUD de usuários](./projeto-2/README.md) | CRUD de usuários com PHP, PDO, MySQL e Bootstrap. | Disponível |
+| Projetos 3  | Novos exercícios da série. | A desenvolver |
 
 ## Tecnologias
 
@@ -17,12 +18,12 @@ Repositório de uma série prática de **40 projetos** para aprender e exercitar
 
 ## Como começar
 
-1. Instale o PHP com a extensão `mysqli` habilitada e um servidor MySQL.
+1. Instale o PHP com as extensões necessárias ao projeto (`mysqli` ou `pdo_mysql`) e um servidor MySQL.
 2. Acesse a pasta do projeto que deseja executar.
 3. Siga o README da pasta para criar o banco de dados e configurar a conexão.
 4. Inicie o servidor local e abra o endereço indicado na documentação do projeto.
 
-Para executar o projeto 1, consulte [projeto-1/README.md](./projeto-1/README.md).
+Para executar um projeto, consulte o README correspondente: [Projeto 1](./projeto-1/README.md) ou [Projeto 2](./projeto-2/README.md).
 
 ## Objetivo
 
