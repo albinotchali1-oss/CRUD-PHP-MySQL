@@ -21,7 +21,7 @@
             </div>
 
             <ul id="nav-links">
-                <li><a href="index.php">Home</a></li>
+                <!-- <li><a href="index.php">Home</a></li> -->
                 <li><a href="?page=novo">Novo Usuário</a></li>
                 <li><a href="?page=listar">Listar Usuário</a></li>
             </ul>

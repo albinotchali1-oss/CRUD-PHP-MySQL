@@ -17,7 +17,7 @@
                     include('editar-user.php');
                 break;
             default:
-                 print '<h1>hello</h1>';
+                 include('listar-user.php');
                 break;
         }
     ?>
